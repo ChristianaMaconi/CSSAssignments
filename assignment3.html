@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch photo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0;
+      }
+      .background {
+        background-color: rgb(167, 168, 205);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8rem;
+        width: 30rem;
+        position: relative;
+      }
+      .titlecontainer {
+        display: flex;
+        justify-content: left;
+        background-color: rgb(225, 225, 191);
+        box-shadow: 0.2px 0.2px 3px -1px rgba(100, 89, 38, 0.342);
+
+        max-width: fit-content;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        max-height: fit-content;
+        padding: 5px 4px;
+        position: absolute;
+        left: -10px;
+        top: 10px;
+      }
+      .topcontainer {
+        width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        /* overflow: hidden; */
+        /* background-color: aqua; */
+        height: 250px;
+        background-image: url("cssmedia/watch.jpeg");
+        background-position: center;
+        background-size: cover;
+      }
+
+      .bottomcontainer {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 0rem 2rem 1rem 2rem;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin: 0;
+      }
+      h1 {
+        text-align: left;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <div class="container">
+      <div class="titlecontainer">
+        <h2>New and improved!</h2>
+      </div>
+      <div class="titlecontainer">
+        <h2>New and improved!</h2>
+      </div>
+      <div class="titlecontainer">
+        <h2>New and improved!</h2>
+      </div>
+      <div class="titlecontainer">
+        <h2>New and improved!</h2>
+      </div>
+      <div class="topcontainer"></div>
+      <div class="bottomcontainer">
+        <h1>
+          Novus Watch
+          <span style="font-size: 16px; color: gray">Series IV</span>
+        </h1>
+        <p>
+          The pinnacle of fashion and tech. This wearable piece is a homepage to
+          gilded palaces and minimal regalia, combining nouveau-deco and
+          brutalism influences in a compact. Swiss-made watch.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
